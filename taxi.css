@@ -1,0 +1,171 @@
+.body1 {
+    background-color: #ffffff;
+}
+
+.back_navbar {
+
+    background-color: #3B3486;
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+ul li a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    font-size: large;
+    color: #FCFDF2;
+    font-family: "REM";
+
+}
+
+.navbar li a:hover {
+    background-color: #FFE9B1;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.colorlogo {
+    color: #FCFDF2;
+    margin-left: 10px;
+}
+
+.back{
+    height: 300px;
+    width: 50%;
+    border-top: 50px ;
+    position: relative;
+    left: 500px;
+    top:250px;
+    background-image: url(gif/taxi.gif);
+    background-size: cover;
+}
+
+
+
+
+.form2 {
+   
+    display: grid;
+    grid-template-columns: 450px 450px 400px;
+    margin-top: 100px;
+    color: #030303;
+    background-color: #e4dabe;
+    height: 150px;
+} 
+
+.labels{
+    font-family:  "Josefin Sans";
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-right: 20px;
+    margin-left: 10px;
+    color: #3f3f42;
+    
+}
+.textbar{
+    border: 1px solid ;
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    font-family: "Josefin Sans" ;
+    margin-top: 5px; 
+    
+}
+
+.textbar:hover{
+    background-color: #cac8c86e;
+}
+.textbar1{
+ position: absolute;
+ left: 180px;
+}
+.textbar2{
+ position: absolute;
+ left: 650px;
+    
+}
+.textbar3{
+position: absolute;
+ left: 1100px;
+    
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 10px;
+    top: 1px;
+    border: 1px solid white;
+}
+.book{
+     border: 2px solid rgba(0, 0, 0, 0.678);
+     width: 100px;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: 20px;
+     color:#FCFDF2 ;
+     /* margin-top: 20px; */
+     padding: 10px;
+     background-color:#3B3486;    
+     position: relative;
+     left: 1240px;
+     top: 20px;
+}
+.book:hover{
+    background-color: #4646461e;
+}
+.parag{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 30px;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 80px;
+    text-align: justify;
+    color: #636366bd;
+}
+
+
+footer{
+      background-color: #1e1a3d;
+      height: 320px;
+      width: 100%;
+      margin-top: 300px;
+    }
+    footer p{
+      text-align: center;
+      color: #FCFDF2;
+      padding-top: 100px;
+      font-size: 30px;
+      font-family: "REM";
+      cursor: pointer;
+
+    }
+    .foot{
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+    }
+    footer ul li a:hover{
+      text-decoration: none;
+      color: #FFE9B1;
+    }
+    .styleicons{
+      color: #FCFDF2;
+      margin: 10px;
+      cursor: pointer;
+    }
+    .cobyright{
+        color: rgba(165, 167, 170, 0.685);
+
+    }

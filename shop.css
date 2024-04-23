@@ -1,0 +1,203 @@
+.body1 {
+    background-color: #FCFDF2;
+}
+
+.back_navbar {
+
+    background-color: #3B3486;
+    height: 300px;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+ul li a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    font-size: large;
+    color: #FCFDF2;
+    font-family: "REM";
+
+}
+
+.navbar li a:hover {
+    background-color: #FFE9B1;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.colorlogo {
+    color: #FCFDF2;
+    margin-left: 10px;
+}
+
+.title {
+    color: #FCFDF2;
+    margin-left: 15px;
+    margin-top: 30px;
+    font-family: "Josefin Sans";
+}
+
+.title_logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 100px;
+}
+
+.search {
+    position: relative;
+    bottom: 200px;
+    color: #FCFDF2;
+}
+
+.gif {
+    position: absolute;
+    top: 200px;
+    left: 510px;
+
+}
+
+.gif img {
+    height: 200px;
+    border: 1px solid #FCFDF2;
+    border-radius: 30px;
+}
+
+
+/* ------------------------------------------*/
+
+
+#cards {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 200px;
+    margin-left: 10px;
+}
+
+.img-buttom {
+    border: 1px solid #c2b28a;
+    width: 250px;
+    height: 300px;
+    margin-left: 40px;
+    position: relative;
+
+}
+
+.img-buttom:hover img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 0.4s ease-in-out;
+}
+
+.imgstyle {
+    width: 100%;
+    height: 100%;
+}
+
+.img-buttom span {
+    display: none; 
+    position: absolute;
+    top: 50%;
+    width: 100%;
+
+}
+
+.buy {
+    width: 100%;
+    height: 35px;
+    border: 1px solid white;
+    text-align: center;
+    font-family: "Josefin Sans";
+    background-color: #3023c4;
+    color: #FCFDF2;
+}
+.remove{
+    font-family: "Josefin Sans";
+    border: 1px solid white;
+    margin-top: 2px;
+}
+.remove:hover{
+    border: 1px solid white;
+    background-color: #c2b28a6b;
+}
+
+.img-buttom:hover span {
+    display: block;
+}
+
+.img-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "Josefin Sans" ;
+}
+.basket{
+     border: 2px solid #3023c4 ;
+     padding: 5px;
+     margin-left: 450px;
+     width: 400px;
+     margin-top: 50px;
+     border-radius: 50px;
+     font-family: "Josefin Sans" ;
+     padding: 10px;
+    
+}
+.basket:hover{
+    background-color: #FFE9B1;
+}
+
+#comment{
+    text-align: center;
+    font-family: "Josefin Sans" ;
+    margin-top: 10px;
+}
+
+footer{
+      background-color: #1e1a3d;
+      height: 320px;
+      width: 100%;
+      margin-top: 100px;
+    }
+    footer p{
+      text-align: center;
+      color: #FCFDF2;
+      padding-top: 100px;
+      font-size: 30px;
+      font-family: "REM";
+      cursor: pointer;
+
+    }
+    .foot{
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+    }
+    footer ul li a:hover{
+      text-decoration: none;
+      color: #FFE9B1;
+    }
+    .styleicons{
+      color: #FCFDF2;
+      margin: 10px;
+      cursor: pointer;
+    }
+    .cobyright{
+        color: rgba(165, 167, 170, 0.685);
+
+    }
